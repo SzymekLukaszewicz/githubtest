@@ -71,3 +71,6 @@ def opponent_mov():
     #     print("opponent run away")
 
 fighting_game()
+
+# ZMIEN TO Z POWROTEM SZYBKO !!!!!
+print("TEST GIT GIT TEST")
