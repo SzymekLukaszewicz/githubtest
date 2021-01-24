@@ -8,7 +8,7 @@ def fighting_game():
     blocking = False
     command = ""
     while logic:
-        opponent_move()
+        opponent_mov()
         command = input("> ")
         if command == "help":
             print("""
@@ -58,7 +58,7 @@ def fighting_game():
             print("I don't understand this command :<")
 
 
-def opponent_move():
+def opponent_mov():
     rand_num = random.choice(range(1,3))
     global opponent_last_move
     opponent_last_move = rand_num
